@@ -7,8 +7,4 @@ body {
   background: url('/assets/images/login_bg.jpg') no-repeat center;
   background-size: cover;
 }
-    div{
-        background-color: aquamarine;
-        height: 300px;
-        width: 200px;
-    }
+    
