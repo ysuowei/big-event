@@ -7,4 +7,49 @@ body {
   background: url('/assets/images/login_bg.jpg') no-repeat center;
   background-size: cover;
 }
-    
+.login-box{
+  
+  width: 400px;
+  height: 310px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.login-box .login-title{
+  
+  height: 60px;
+  background: url('/assets/images/login_title.png') no-repeat center;
+
+}
+.login-reg,
+.login-reg-from{
+  display: none;
+
+} 
+.layui-form{
+  padding: 25px;
+  
+}
+.login-box .login-reg-from{
+  padding:0px 25px;
+
+}
+.go{
+  float: right;
+} 
+.go a{
+  font-size: 12px;
+}
+.layui-icon{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.layui-form-item{
+  position: relative;
+}
+.layui-form-item .layui-input {
+  padding-left: 32px;
+}
