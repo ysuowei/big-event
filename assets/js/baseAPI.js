@@ -7,7 +7,7 @@ $.ajaxPrefilter(function(options){
     //同一挂载complete
     options.complete=function(res){
         //无论请求是否成功，都会调用complete函数
-        if(res.responseJSON.status==1 && res.responseJSON.message  === '身份认证失败！')
+        if(res.responseJSON.status == 1 && res.responseJSON.message  === '身份认证失败！')
         {
             //清空本地会话token
             localStorage.removeItem('token');
